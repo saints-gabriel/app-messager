@@ -7,10 +7,11 @@ Como rodar a aplicação (Host)
 
 
 * Tenha Python e Ngrok instalados na máquina que vai rodar
+* Checando versão e se está instalado
 
 ```
 
-python -v
+python --version
 
 ```
 * Instalando dependências
