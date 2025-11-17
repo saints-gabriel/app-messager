@@ -7,6 +7,24 @@ Como rodar a aplicação (Host)
 
 
 * Tenha Python e Ngrok instalados na máquina que vai rodar
+
+```
+
+python -v
+
+```
+* Instalando dependências
+```
+
+pip install flask, flask_socketio
+
+```
+* Configurando o Ngrok (Conecte sua conta Github no website deles)
+```
+
+ngrok config add-authtoken SEUCÓDIGODEAUTORIZACAONGROK
+
+```
 * Abra 2 terminais (1 para cada serviço)
 * Terminal 1 (Aberto dentro da pasta do projeto): 
 
